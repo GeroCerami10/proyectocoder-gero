@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Paytone One', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #343a40c0;
+}
+
+
+footer {
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+
+/* ---- Header---- */
+
+.header {
+    background-color: #d9d9d9;
+    width: 100%;
+
+}
+
+.marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.marca__title {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.navbar__lista {
+    padding: 5px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    color: #343a40be;
+
+
+}
+
+.navbar__item {
+    font-size: 1.4rem;
+}
+
+@media (min-widht: 992px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* ----umain---- */
+
+.informacion {
+    background-color: #d9d9d9;
+}
+
+.umain {
+    height: 100vh;
+    background-image: url(../img/imgsanma.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.umain__texto {
+    font-size: 3rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.614);
+}
+
+/* INFORMACION */
+
+.informacion__title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #457b9d;
+}
+
+/* imagenes */
+
+.slider {
+    padding: 15px;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.slider__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+/* informacion escrita */
+
+.texto {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.texto__title {
+    font-size: 25px;
+    color: darkolivegreen;
+
+}
+
+.texto__li {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #343a40;
+}
+
+/* ubicacion */
+
+.ubicacion {
+    padding-top: 30px;
+}
+
+.ubicacion__title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 15px;
+    color: #457b9d;
+}
+
+.ubicacion__p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #343a40;
+}
+
+.ubicacion__mapa {
+    width: 100%;
+    height: 35vh;
+    border: 0;
+}
+
+/* complejo */
+
+
+
+.complejo__title {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #457b9d;
+}
+
+.complejo__p {
+    padding: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #343a40;
+}
+
+.complejo__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.complejo__img {
+    width: 450px;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+/* footer */
+
+.redes {
+    padding: 10px;
+}
+
+.redes__title {
+    font-size: 1.5rem
+}
+
+.redes__iconos {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+/* PAGINA CONTACTO HTML */
+
+/* MAIN */
+
+/* SECCION CONTACTANOS */
+
+.contacto {
+    padding: 10px;
+    background-color: #d9d9d9;
+}
+
+.contacto__title {
+    font-size: 35px;
+    color: #457b9d;
+}
+
+.contacto__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+.contacto__div {
+    font-size: 3.5rem;
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (2, 1fr);
+    grid-template-areas:
+        " facebook ig img"
+        "mail wpp img";
+    padding: 10px;
+
+
+}
+
+.caja1 {
+    grid-area: facebook;
+
+}
+
+.caja2 {
+    grid-area: ig;
+}
+
+.caja3 {
+    grid-area: mail;
+}
+
+.caja4 {
+    grid-area: wpp;
+}
+
+.caja5 {
+    grid-area: img;
+    width: 100%;
+}
+
+
+
+.links {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* formulario de contacto */
+
+.formulario {
+    background-color: #d9d9d9;
+}
+
+.formulario__title {
+    font-size: 35px;
+    padding: 10px;
+    color: #457b9d;
+}
+
+.formulario__form {
+    padding: 30px;
+    color: #343a40;
+}
+
+.formulario__label {
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+
+}
+
+/* PAGINA RESERVAS */
+
+/* DISPONIBILIAD */
+
+.disponibilidad {
+    background-color: #d9d9d9;
+}
+
+.disponibilidad__title {
+    font-size: 35px;
+    padding: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #457b9d;
+}
+
+.disponibilidad__div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.disponibilidad__p {
+    padding-left: 40px;
+    font-size: 25px;
+    color: #343a40;
+}
+
+.disponibilidad__iframe {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+/* reservas formilario */
+
+.reservas {
+    background-color: #d9d9d9;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.reservas__title {
+    font-size: 35px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #457b9d;
+}
+
+.reservas__p {
+    padding-bottom: 55px;
+    font-size: 25px;
+    color: #343a40;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #343a40;
+}
+
+/* PAGINA CONOCIENDO SAN MARTIN HTML */
+
+/* lugares para visitar */
+
+.lugares {
+    background-color: #d9d9d9;
+}
+
+.lugares__title {
+    font-size: 35px;
+    padding: 10px;
+    color: #457b9d;
+}
+
+.lugares__p {
+    color: #343a40;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+/* casa arrayanes */
+
+.arrayanes__title {
+    font-size: 27px;
+    color: darkolivegreen;
+    padding-left: 50px;
+}
+
+.arrayanes__div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+}
+
+.arrayanes__p {
+    color: #343a40;
+    padding-left: 10px;
+}
+
+.arrayanes__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* lago hermoso */
+
+.lago__title {
+    font-size: 27px;
+    color: darkolivegreen;
+    padding-left: 50px;
+}
+
+.lago__div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+}
+
+.lago__p {
+    color: #343a40;
+    padding-left: 10px;
+}
+
+.lago__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* centro de sma */
+
+.centro__title {
+    font-size: 27px;
+    color: darkolivegreen;
+    padding-left: 50px;
+}
+
+.centro__div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+}
+
+.centro__p {
+    color: #343a40;
+    padding-left: 10px;
+}
+
+.centro__img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* DIVERTITE HTML */
+
+/* VIDEOS */
+
+.videos {
+    background-color: #d9d9d9;
+}
+
+.videos__title {
+    font-size: 20px;
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+
+.videos__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.videos__video {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+/* playlist */
+
+.playlist {
+    background-color: #d9d9d9;
+    padding-bottom: 40px;
+}
+
+.playlist__title {
+    color: #457b9d;
+    font-size: 35px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.playlist__p {
+    font-size: 20px;
+    color: #343a40;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.playlist__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist__iframe {
+    width: 60%;
+    height: 400px;
+}
