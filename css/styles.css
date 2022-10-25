@@ -12,7 +12,7 @@ ol {
 
 a {
     text-decoration: none;
-    color: #343a40c0;
+    color: #040404c0;
 }
 
 
@@ -50,9 +50,16 @@ footer {
     font-size: 2rem;
     font-weight: bolder;
     padding-top: 30px;
-    color: rgba(0, 0, 0, 0.419);
+    color: rgba(0, 0, 0, 0.562);
     transform: scale(1.4);
     animation-duration: 3s;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .navbar__lista {
@@ -71,13 +78,6 @@ footer {
 }
 
 
-@media (min-widht: 992px) {
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
 
 /* ----umain---- */
 
