@@ -158,7 +158,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -175,9 +175,7 @@ footer {
     animation-duration: 2s;
 }
 
-.texto__div{
-    display: flex;
-}
+.texto__div {}
 
 .texto__li {
     font-size: 15px;
@@ -186,6 +184,13 @@ footer {
     color: #343a40;
     display: flex;
     align-items: center;
+}
+
+@media (min-width: 992px) {
+    .texto {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 /* ubicacion */
@@ -226,8 +231,22 @@ footer {
     width: 100%;
     height: 35vh;
     border: 0;
+}
 
+@media (min-width: 992px) {
+    .ubicacion__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 
+    .ubicacion__mapa {
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 650px;
+    }
 }
 
 /* complejo */
@@ -280,7 +299,25 @@ footer {
 
 }
 
-/* mediaqueries 992px index */
+@media (min-width: 992px) {
+    .complejo__div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .complejo__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        width: 300px;
+    }
+}
+
+
+
+
 
 
 /* footer */
