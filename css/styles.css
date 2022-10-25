@@ -23,12 +23,14 @@ footer {
 
 /* ---- Header---- */
 
+
 .header {
     background-color: #d9d9d9;
     width: 100%;
     height: 100%;
 
 }
+
 
 
 .marca {
@@ -55,7 +57,7 @@ footer {
     animation-duration: 3s;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +156,9 @@ footer {
 
 .texto {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
     gap: 10px;
 }
 
@@ -171,11 +175,17 @@ footer {
     animation-duration: 2s;
 }
 
+.texto__div{
+    display: flex;
+}
+
 .texto__li {
     font-size: 15px;
     padding-left: 10px;
     padding-top: 15px;
     color: #343a40;
+    display: flex;
+    align-items: center;
 }
 
 /* ubicacion */
@@ -258,17 +268,20 @@ footer {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    gap: 50px;
+    gap: 10px;
     padding-bottom: 30px;
     padding-top: 20px;
 }
 
 .complejo__img {
-    width: 450px;
-    height: 250px;
+    width: 170px;
+    height: 200px;
     border-radius: 15px;
 
 }
+
+/* mediaqueries 992px index */
+
 
 /* footer */
 
@@ -311,13 +324,13 @@ footer {
     background-color: #d9d9d9;
 }
 
-.contacto__title{
+.contacto__title {
     font-size: 35px;
     padding: 10px;
     color: #457b9d;
     display: flex;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -655,4 +668,3 @@ footer {
     width: 60%;
     height: 400px;
 }
-
