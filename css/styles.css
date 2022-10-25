@@ -397,48 +397,14 @@ footer {
     
 }
 
-.contacto__div {
-    font-size: 3.5rem;
-    display: grid;
-    grid-template-columns: (3, 1fr);
-    grid-template-rows: (2, 1fr);
-    grid-template-areas:
-        " facebook ig img"
-        "mail wpp img";
-    padding: 10px;
-
-
-}
-
-.caja1 {
-    grid-area: facebook;
-
-}
-
-.caja2 {
-    grid-area: ig;
-}
-
-.caja3 {
-    grid-area: mail;
-}
-
-.caja4 {
-    grid-area: wpp;
-}
-
-.caja5 {
-    grid-area: img;
-    width: 100%;
-}
-
-
 
 .links {
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
 }
+
+
 
 /* formulario de contacto */
 
