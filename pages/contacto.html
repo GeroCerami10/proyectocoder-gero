@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Orbitron&family=Paytone+One&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Orbitron&family=Paytone+One&display=swap"
+        rel="stylesheet">
     <title>Umain 28 - Contacto</title>
 </head>
 
@@ -40,8 +41,9 @@
                         <a class="nav-link" href="./divertite.html">Divertite en el viaje</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="https://www.booking.com/hotel/ar/umain-28.es-ar.html?aid=898224&app_hotel_id=8887084&checkin=2022-09-29&checkout=2022-09-30&from_sn=ios&group_adults=2&group_children=0&label=Share-W0lxWW%401664500088&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C"
-                        target="_blank">Booking</a>
+                        <a class="nav-link"
+                            href="https://www.booking.com/hotel/ar/umain-28.es-ar.html?aid=898224&app_hotel_id=8887084&checkin=2022-09-29&checkout=2022-09-30&from_sn=ios&group_adults=2&group_children=0&label=Share-W0lxWW%401664500088&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA%2C"
+                            target="_blank">Booking</a>
                     </li>
                 </ul>
             </nav>
@@ -53,25 +55,28 @@
                 <h2>Contacto Umain 28</h2>
             </div>
         </section>
+
         <section class="contacto">
             <h3 class="contacto__title">Contactános!</h3>
-            <div class="contacto__div">
-                <div class="caja1"><i class="bi bi-facebook"><a href="https://www.facebook.com/profile.php?id=100086513276158"
-                            class="links" target="_blank">Umain 28 - San Martin de los Andes</a></i></div>
-                <div class="caja2"><i class="bi bi-instagram"><a href="https://www.instagram.com/umain28.sma/"
-                            class="links" target="_blank">umain28.sma</a></i></div>
-                <div class="caja3"><i class="bi bi-envelope"><a
-                            href="https://myaccount.google.com/?utm_source=OGB&tab=wk&utm_medium=app" class="links"
-                            target="_blank">umain28complejo@gmail.com</a></i></div>
-                <div class="caja4"><i class="bi bi-whatsapp"><a href="https://www.whatsapp.com" class="links"
-                            target="_blank">+54 261 6699583</a></i></div>
-                <div class="caja5"><img src="../img/Umain 29.jpg" alt="" class="contacto__img"></div>
+            <div class="container text-center">
+                <div class="row row-cols-2">
+                    <div class="col col-12  header p-3"><i class="bi bi-facebook links"></i> Umain 28 - San Martin de
+                        los Andes</div>
+                    <div class="col col-12 header p-3"><i class="bi bi-instagram links"></i> umain28.sma</div>
+                    <div class="col col-12  header p-3"><i class="bi bi-envelope"></i> umain28complejo@gmail.com</div>
+                    <div class="col col-12 header p-3"><i class="bi bi-whatsapp"></i> +54 261 6699583</div>
+                </div>
+            </div>
+            <div class="contacto__div-img">
+                <img src="../img/Umain 29.jpg" alt="logo de la marca , de nuestra empresa de departamentos"
+                    class="contacto__img">
             </div>
         </section>
+
         <section class="formulario">
             <h3 class="formulario__title">Formulário de contacto</h3>
             <form class="formulario__form">
-                <div class="fformulario__div">
+                <div class="formulario__div">
                     <label for="nombre-apellido" class="formulario__label">Nombre y Apellido:</label>
                     <input type="text" name="nombre" id="nombre-apellido" required>
                 </div>
@@ -89,14 +94,15 @@
                 </div>
                 <div>
                     <label for="mensaje" class="formulario__label">Mensaje:</label>
-                    <textarea name="mensajes" id="mensaje" cols="30" rows="10"></textarea>
+                    <textarea name="mensajes" id="mensaje" cols="20" rows="10"></textarea>
                 </div>
                 <div>
                     <label for="" class="formulario__label">¿Quiere recibir mensajes?</label>
                     <input type="checkbox" name="mensajes" value="si-mensajes">
                 </div>
-                <div>
-                    <input type="submit" value="Enviar" class="form__boton">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">Enviar</button>
+                    
                 </div>
             </form>
         </section>
