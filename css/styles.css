@@ -561,27 +561,53 @@ footer {
     color: #457b9d;
 }
 
+.lugares__title:hover {
+    font-size: 35px;
+    padding: 10px;
+    color: #457b9d;
+    transform: scale(1.2);
+    animation-duration: 2s;
+}
+
 .lugares__p {
     color: #343a40;
     padding: 10px;
     padding-left: 30px;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.lugares__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 /* casa arrayanes */
 
+
+
 .arrayanes__title {
-    font-size: 27px;
+    font-size: 20px;
+    color: darkolivegreen;
+    padding-left: 30px;
+}
+
+.arrayanes__title:hover {
+    font-size: 20px;
     color: darkolivegreen;
     padding-left: 50px;
+    transform: scale(1.2);
+    animation-duration: 2s;
 }
 
 .arrayanes__div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px;
-    padding-left: 70px;
+
 }
 
 .arrayanes__p {
@@ -590,25 +616,56 @@ footer {
 }
 
 .arrayanes__img {
-    width: 300px;
+    width: 200px;
     height: 200px;
     border-radius: 15px;
+    padding-bottom: 10px;
 }
+
+@media (min-width: 992px) {
+    .arrayanes__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .lago__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+}
+
+
 
 /* lago hermoso */
 
-.lago__title {
+/* .lago__title {
     font-size: 27px;
     color: darkolivegreen;
     padding-left: 50px;
 }
 
+.lago__title:hover {
+    font-size: 27px;
+    color: darkolivegreen;
+    padding-left: 50px;
+    transform: scale(1.2);
+    animation-duration: 2s;
+}
+
 .lago__div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px;
-    padding-left: 70px;
 }
 
 .lago__p {
@@ -617,36 +674,46 @@ footer {
 }
 
 .lago__img {
-    width: 300px;
+    width: 200px;
     height: 200px;
     border-radius: 15px;
-}
+    padding-bottom: 10px;
+} */
 
 /* centro de sma */
 
-.centro__title {
+/* .centro__title {
     font-size: 27px;
     color: darkolivegreen;
     padding-left: 50px;
 }
 
+.centro__title:hover {
+    font-size: 27px;
+    color: darkolivegreen;
+    padding-left: 50px;
+    transform: scale(1.2);
+    animation-duration: 2s;
+}
+
 .centro__div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px;
-    padding-left: 70px;
 }
 
 .centro__p {
     color: #343a40;
     padding-left: 10px;
-}
+} */
 
 .centro__img {
-    width: 300px;
+    width: 235px;
     height: 200px;
     border-radius: 15px;
+    padding-bottom: 10px;
 }
 
 /* DIVERTITE HTML */
