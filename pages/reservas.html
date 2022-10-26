@@ -55,7 +55,9 @@
             </div>
         </section>
         <section class="disponibilidad">
+            <div class="titledisp__div">
             <h2 class="disponibilidad__title">Disponibilidad</h2>
+        </div>
             <div class="disponibilidad__div">
                 <p class="disponibilidad__p">Para consultas de disponibiliad,<a href="./contacto.html">Hace click
                         aca!</a></p>
@@ -70,7 +72,7 @@
             <article class="article">
                 <p class="reservas__p">Complete el formulario para una atencion personalizada. Responderemos sus dudas
                     en breve:</p>
-                <form class="formulario">
+                <form class="formulario__form">
                     <div class="formulario__reserva">
                         <label for="nombre-apellido">Nombre y Apellido:</label>
                         <input type="text" name="nombreyapellido" id="nombre-apellido">
@@ -85,10 +87,11 @@
                     </div>
                     <div>
                         <label for="mensaje">Deje su consulta:</label>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        <textarea name="mensaje" id="mensaje" cols="20" rows="10"></textarea>
                     </div>
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Enviar</button>
+    
                     </div>
                 </form>
             </article>

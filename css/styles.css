@@ -383,7 +383,7 @@ footer {
     animation-duration: 3s;
 }
 
-.contacto__div-img{
+.contacto__div-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,7 +394,7 @@ footer {
     width: 250px;
     height: 250px;
     border-radius: 15px;
-    
+
 }
 
 
@@ -445,14 +445,14 @@ footer {
 
 }
 
-@media (min-width: 992px) { 
-    .formulario__form{
+@media (min-width: 992px) {
+    .formulario__form {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
- }
+}
 
 /* PAGINA RESERVAS */
 
@@ -463,30 +463,44 @@ footer {
 }
 
 .disponibilidad__title {
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     display: flex;
     text-align: center;
     justify-content: center;
     color: #457b9d;
 }
 
+.disponibilidad__title:hover {
+    font-size: 25px;
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #457b9d;
+    transform: scale(1.2);
+    animation-duration: 2s;
+}
+
+
 .disponibilidad__div {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .disponibilidad__p {
-    padding-left: 40px;
-    font-size: 25px;
+    padding-left: 20px;
+    font-size: 20px;
     color: #343a40;
 }
 
 .disponibilidad__iframe {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
 }
 
@@ -503,14 +517,26 @@ footer {
     padding-bottom: 30px;
     padding-top: 50px;
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     color: #457b9d;
 }
 
+.reservas__title:hover {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #457b9d;
+    transform: scale(1.2);
+    animation-duration: 2s;
+}
+
 .reservas__p {
-    padding-bottom: 55px;
-    font-size: 25px;
+    padding-bottom: 30px;
+    font-size: 20px;
     color: #343a40;
 }
 
