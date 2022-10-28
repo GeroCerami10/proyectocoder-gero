@@ -593,7 +593,6 @@ footer {
 /* casa arrayanes */
 
 
-
 .arrayanes__title {
     font-size: 20px;
     color: darkolivegreen;
@@ -646,6 +645,20 @@ footer {
         align-items: center;
         justify-content: center;
         padding-left: 50px
+    }
+
+    .arrayanes__title {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 30px;
+    }
+
+    .arrayanes__title:hover{
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 50px;
+        transform: scale(0.9);
+        
     }
 }
 
