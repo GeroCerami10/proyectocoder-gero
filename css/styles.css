@@ -150,14 +150,7 @@ footer {
 
 }
 
-@media (min-width: 992px) { 
-    .slider__img{
-        width: 300px;
-        height: 300px;
-        border-radius: 15px;
-        box-shadow: 0px 5px 5px;
-    }
-}
+
 
 /* informacion escrita */
 
@@ -192,12 +185,8 @@ footer {
     align-items: center;
 }
 
-@media (min-width: 992px) {
-    .texto {
-        display: flex;
-        flex-direction: row;
-    }
-}
+
+
 
 /* ubicacion */
 
@@ -239,21 +228,7 @@ footer {
     border: 0;
 }
 
-@media (min-width: 992px) {
-    .ubicacion__div {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
 
-    .ubicacion__mapa {
-        padding-left: 15px;
-        padding-bottom: 15px;
-        width: 650px;
-    }
-}
 
 /* complejo */
 
@@ -305,7 +280,32 @@ footer {
 
 }
 
-@media (min-width: 992px) {
+
+
+
+@media (min-width: 768px) {
+    .slider__img {
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 5px;
+    }
+
+
+    .ubicacion__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ubicacion__mapa {
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 650px;
+    }
+
     .complejo__div1 {
         display: flex;
         justify-content: center;
@@ -318,6 +318,81 @@ footer {
         align-items: center;
         padding: 15px;
         width: 300px;
+    }
+
+    .complejo__p {
+        padding: 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #343a40;
+    }
+
+    .complejo__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+
+    }
+}
+
+
+@media (min-width: 992px) {
+    .slider__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 5px;
+    }
+
+    .texto {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ubicacion__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ubicacion__mapa {
+        padding-left: 15px;
+        padding-bottom: 15px;
+        width: 650px;
+    }
+
+    .complejo__div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .complejo__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        width: 300px;
+    }
+
+    .complejo__p {
+        padding: 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #343a40;
+    }
+
+    .complejo__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+
     }
 }
 
@@ -452,6 +527,15 @@ footer {
 
 }
 
+@media (min-width: 768px) {
+    .formulario__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media (min-width: 992px) {
     .formulario__form {
         display: flex;
@@ -511,7 +595,7 @@ footer {
     border-radius: 15px;
 }
 
-/* reservas formilario */
+/* reservas formUlario */
 
 .reservas {
     background-color: #d9d9d9;
@@ -553,6 +637,40 @@ footer {
     text-align: center;
     color: #343a40;
 }
+
+@media (min-width: 768px) {
+    .disponibilidad__iframe {
+        width: 500px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .formulario__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .disponibilidad__iframe {
+        width: 600px;
+        height: 400px;
+        border-radius: 15px;
+    }
+
+    .formulario__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
 
 /* PAGINA CONOCIENDO SAN MARTIN HTML */
 
@@ -628,6 +746,50 @@ footer {
     padding-bottom: 10px;
 }
 
+
+.centro__img {
+    width: 235px;
+    height: 200px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .arrayanes__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .lago__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .arrayanes__title {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 30px;
+    }
+
+    .arrayanes__title:hover {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 50px;
+        transform: scale(0.9);
+
+    }
+}
+
+
 @media (min-width: 992px) {
     .arrayanes__div {
         display: flex;
@@ -653,21 +815,17 @@ footer {
         padding-left: 30px;
     }
 
-    .arrayanes__title:hover{
+    .arrayanes__title:hover {
         font-size: 20px;
         color: darkolivegreen;
         padding-left: 50px;
         transform: scale(0.9);
-        
+
     }
 }
 
-.centro__img {
-    width: 235px;
-    height: 200px;
-    border-radius: 15px;
-    padding-bottom: 10px;
-}
+
+
 
 /* DIVERTITE HTML */
 
@@ -730,4 +888,27 @@ footer {
 .playlist__iframe {
     width: 60%;
     height: 400px;
+}
+
+@media (min-width: 992px) {
+
+    .playlist {
+        background-color: #d9d9d9;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .playlist__iframe {
+        width: 75%;
+        height: 300px;
+    }
+
+    .videos__video {
+        width: 400px;
+        height: 450px;
+        padding-bottom: 50px;
+    }
 }
