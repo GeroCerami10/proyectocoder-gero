@@ -872,6 +872,14 @@ footer {
     padding-bottom: 15px;
 }
 
+.playlist__title:hover {
+    color: #457b9d;
+    font-size: 35px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    transform: scale(1.2);
+}
+
 .playlist__p {
     font-size: 20px;
     color: #343a40;
