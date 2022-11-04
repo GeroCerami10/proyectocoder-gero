@@ -1,0 +1,148 @@
+.lugares {
+    background-color: #d9d9d9;
+
+    &__title {
+        font-size: 35px;
+        padding: 10px;
+        color: #457b9d;
+    }
+
+    &__title:hover {
+        font-size: 35px;
+        padding: 10px;
+        color: #457b9d;
+        transform: scale(1.2);
+        animation-duration: 2s;
+    }
+
+    &__p {
+        color: #343a40;
+        padding: 10px;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    &__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* casa arrayanes */
+
+.arrayanes {
+    padding: 5px;
+
+    &__title {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 30px;
+    }
+
+    &__title:hover {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 50px;
+        transform: scale(1.2);
+        animation-duration: 2s;
+    }
+
+    &__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    &__p {
+        color: #343a40;
+        padding-left: 10px;
+    }
+
+    &__img {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+.centro__img {
+    width: 235px;
+    height: 200px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .arrayanes__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .lago__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .arrayanes__title {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 30px;
+    }
+
+    .arrayanes__title:hover {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 50px;
+        transform: scale(0.9);
+
+    }
+}
+
+
+@media (min-width: 992px) {
+    .arrayanes__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .lago__div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px
+    }
+
+    .arrayanes__title {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 30px;
+    }
+
+    .arrayanes__title:hover {
+        font-size: 20px;
+        color: darkolivegreen;
+        padding-left: 50px;
+        transform: scale(0.9);
+
+    }
+}

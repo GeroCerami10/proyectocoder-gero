@@ -232,7 +232,9 @@ footer {
 
 /* complejo */
 
-
+.complejo{
+    padding: 5px;
+}
 
 .complejo__title {
     font-size: 2.5rem;
@@ -710,6 +712,9 @@ footer {
 
 /* casa arrayanes */
 
+.arrayanes{
+    padding: 5px;
+}
 
 .arrayanes__title {
     font-size: 20px;
