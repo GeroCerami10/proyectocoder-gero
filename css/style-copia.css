@@ -163,13 +163,13 @@ footer {
 }
 
 .texto__title {
-    font-size: 25px;
+    font-size: 20px;
     color: darkolivegreen;
 
 }
 
 .texto__title:hover {
-    font-size: 25px;
+    font-size: 20px;
     color: darkolivegreen;
     transform: scale(1.1);
     animation-duration: 2s;

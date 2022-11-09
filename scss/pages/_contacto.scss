@@ -78,3 +78,29 @@
         border-radius: 20px;
     }
 }
+
+.redes {
+    padding: 10px;
+
+    &__title {
+        font-size: 1.5rem
+    }
+    
+    &__iconos {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    
+    &__iconos:hover {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        transform: scale(1.4);
+        animation-delay: 2s;
+    }
+}
