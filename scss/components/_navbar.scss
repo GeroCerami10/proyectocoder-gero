@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    &__lista {
+        padding: 5px;
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        color: #343a40be;
+    }
+    
+    
+    &__item {
+        font-size: 1.4rem;
+        box-shadow: 0;
+    }
+}
+
+
+
+
