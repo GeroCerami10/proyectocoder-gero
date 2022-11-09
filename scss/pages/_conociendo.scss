@@ -1,25 +1,25 @@
 .lugares {
-    background-color: #d9d9d9;
+    background-color: $color-primario;
 
     &__title {
         font-size: 35px;
         padding: 10px;
-        color: #457b9d;
+        color: $color-secundario;
     }
 
     &__title:hover {
         font-size: 35px;
         padding: 10px;
-        color: #457b9d;
+        color: $color-secundario;
         transform: scale(1.2);
-        animation-duration: 2s;
+        animation-duration: $duration;
     }
 
     &__p {
-        color: #343a40;
+        color: $color-cuarto;
         padding: 10px;
         padding-left: 30px;
-        font-size: 20px;
+        font-size: $title-size2;
     }
 
     &__div {
@@ -36,17 +36,17 @@
     padding: 5px;
 
     &__title {
-        font-size: 20px;
-        color: darkolivegreen;
+        font-size: $title-size2;
+        color: $color-terciario;
         padding-left: 30px;
     }
 
     &__title:hover {
-        font-size: 20px;
-        color: darkolivegreen;
+        font-size: $title-size2;
+        color: $color-terciario;
         padding-left: 50px;
         transform: scale(1.2);
-        animation-duration: 2s;
+        animation-duration: $duration;
     }
 
     &__div {
@@ -58,7 +58,7 @@
     }
 
     &__p {
-        color: #343a40;
+        color: $color-cuarto;
         padding-left: 10px;
     }
 
@@ -98,14 +98,14 @@
     }
 
     .arrayanes__title {
-        font-size: 20px;
-        color: darkolivegreen;
+        font-size: $title-size2;
+        color: $color-terciario;
         padding-left: 30px;
     }
 
     .arrayanes__title:hover {
-        font-size: 20px;
-        color: darkolivegreen;
+        font-size: $title-size2;
+        color: $color-terciario;
         padding-left: 50px;
         transform: scale(0.9);
 
@@ -133,14 +133,14 @@
     }
 
     .arrayanes__title {
-        font-size: 20px;
-        color: darkolivegreen;
+        font-size: $title-size2;
+        color: $color-terciario;
         padding-left: 30px;
     }
 
     .arrayanes__title:hover {
-        font-size: 20px;
-        color: darkolivegreen;
+        font-size: $title-size2;
+        color: $color-terciario;
         padding-left: 50px;
         transform: scale(0.9);
 
@@ -153,22 +153,22 @@
     &__title {
         font-size: 1.5rem
     }
-    
+
     &__iconos {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 70px;
     }
-    
+
     &__iconos:hover {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 70px;
         transform: scale(1.4);
-        animation-delay: 2s;
+        animation-duration: $duration;
     }
 }

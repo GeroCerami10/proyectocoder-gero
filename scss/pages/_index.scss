@@ -10,17 +10,17 @@
     align-items: center;
 
     &__texto {
-        font-size: 3rem;
+        font-size: $title-size;
         text-align: center;
         color: rgba(0, 0, 0, 0.614);
     }
 
     &__texto:hover {
-        font-size: 3rem;
+        font-size: $title-size;
         text-align: center;
         color: rgba(0, 0, 0, 0.614);
         transform: scale(1.2);
-        animation-delay: 300ms
+        animation-duration: $duration;
     }
 
 }
@@ -28,24 +28,24 @@
 /* INFORMACION */
 
 .informacion {
-    background-color: #d9d9d9;
+    background-color: $color-primario;
 
     &__title {
         display: flex;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: $title-size1;
         font-weight: bolder;
-        color: #457b9d;
+        color: $color-secundario;
     }
 
     &__title:hover {
         display: flex;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: $title-size1;
         font-weight: bolder;
-        color: #457b9d;
+        color: $color-secundario;
         transform: scale(1.3);
-        animation-duration: 2s;
+        animation-duration: $duration;
     }
 
 }
@@ -60,7 +60,7 @@
         width: 230px;
         height: 150px;
         border-radius: 15px;
-        box-shadow: 0px 5px 5px;
+        box-shadow: $shadow;
     }
 
 }
@@ -76,21 +76,21 @@
 
     &__title {
         font-size: 25px;
-        color: darkolivegreen;
+        color: $color-terciario;
     }
 
     &__title:hover {
         font-size: 25px;
-        color: darkolivegreen;
+        color: $color-terciario;
         transform: scale(1.1);
-        animation-duration: 2s;
+        animation-duration: $duration;
     }
 
     &__li {
         font-size: 15px;
         padding-left: 10px;
         padding-top: 15px;
-        color: #343a40;
+        color: $color-cuarto;
         display: flex;
         align-items: center;
     }
@@ -104,21 +104,21 @@
     &__title {
         display: flex;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: $title-size1;
         font-weight: bolder;
         padding: 15px;
-        color: #457b9d;
+        color: $color-secundario;
     }
 
     &__title:hover {
         display: flex;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: $title-size1;
         font-weight: bolder;
         padding: 15px;
-        color: #457b9d;
+        color: $color-secundario;
         transform: scale(1.3);
-        animation-duration: 3s;
+        animation-duration: $duration;
     }
 
     &__p {
@@ -126,7 +126,7 @@
         justify-content: center;
         font-size: 20px;
         padding-bottom: 15px;
-        color: #343a40;
+        color: $color-cuarto;
     }
 
     &__mapa {
@@ -142,23 +142,23 @@
     padding: 5px;
 
     &__title {
-        font-size: 2.5rem;
+        font-size: $title-size1;
         display: flex;
         justify-content: center;
         text-align: center;
         padding-bottom: 10px;
-        color: #457b9d;
+        color: $color-secundario;
     }
 
     &__title:hover {
-        font-size: 2.5rem;
+        font-size: $title-size1;
         display: flex;
         justify-content: center;
         text-align: center;
         padding-bottom: 10px;
-        color: #457b9d;
+        color: $color-secundario;
         transform: scale(1.3);
-        animation-duration: 3s;
+        animation-duration: $duration;
     }
 
     &__p {
@@ -167,7 +167,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        color: #343a40;
+        color: $color-cuarto;
     }
 
     &__div {
@@ -184,6 +184,8 @@
         width: 350px;
         height: 200px;
         border-radius: 15px;
+        box-shadow: $shadow;
+
 
     }
 }
@@ -194,23 +196,22 @@
     &__title {
         font-size: 1.5rem
     }
-    
+
     &__iconos {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 70px;
     }
-    
+
     &__iconos:hover {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 70px;
         transform: scale(1.4);
-        animation-delay: 2s;
+        animation-duration: $duration;
     }
 }
-

@@ -1,11 +1,11 @@
 .contacto {
     padding: 10px;
-    background-color: #d9d9d9;
+    background-color: $color-primario;
 
     &__title {
         font-size: 35px;
         padding: 10px;
-        color: #457b9d;
+        color: $color-secundario;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -14,12 +14,12 @@
     &__title:hover {
         font-size: 35px;
         padding: 10px;
-        color: #457b9d;
+        color: $color-secundario;
         display: flex;
         justify-content: center;
         text-align: center;
         transform: scale(1.3);
-        animation-duration: 3s;
+        animation-duration: $duration;
     }
 
     &__div-img {
@@ -33,6 +33,7 @@
         width: 250px;
         height: 250px;
         border-radius: 15px;
+        box-shadow: $shadow;
     }
 }
 
@@ -45,12 +46,12 @@
 /* formulario de contacto */
 
 .formulario {
-    background-color: #d9d9d9;
+    background-color: $color-primario;
 
     &__title {
         font-size: 35px;
         padding: 10px;
-        color: #457b9d;
+        color: $color-secundario;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -59,17 +60,17 @@
     &__title:hover {
         font-size: 35px;
         padding: 10px;
-        color: #457b9d;
+        color: $color-secundario;
         display: flex;
         justify-content: center;
         text-align: center;
         transform: scale(1.2);
-        animation-duration: 3s;
+        animation-duration: $duration;
     }
 
     &__form {
         padding: 30px;
-        color: #343a40;
+        color: $color-cuarto;
     }
 
     &__label {
@@ -87,7 +88,7 @@
     }
     
     &__iconos {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -95,12 +96,12 @@
     }
     
     &__iconos:hover {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 70px;
         transform: scale(1.4);
-        animation-delay: 2s;
+        animation-duration: $duration;
     }
 }

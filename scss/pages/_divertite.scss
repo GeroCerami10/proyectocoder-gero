@@ -1,9 +1,9 @@
 .videos {
-    background-color: #d9d9d9;
+    background-color: $color-primario;
 
     &__title {
-        font-size: 20px;
-        color: #343a40;
+        font-size: $title-size2;
+        color: $color-cuarto;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -28,18 +28,18 @@
 /* playlist */
 
 .playlist {
-    background-color: #d9d9d9;
+    background-color: $color-primario;
     padding-bottom: 40px;
 
     &__title {
-        color: #457b9d;
+        color: $color-secundario;
         font-size: 35px;
         padding-left: 15px;
         padding-bottom: 15px;
     }
 
     &__title:hover {
-        color: #457b9d;
+        color: $color-secundario;
         font-size: 35px;
         padding-left: 15px;
         padding-bottom: 15px;
@@ -47,8 +47,8 @@
     }
 
     &__p {
-        font-size: 20px;
-        color: #343a40;
+        font-size: $title-size2;
+        color: $color-cuarto;
         padding-left: 30px;
         padding-bottom: 30px;
     }
@@ -69,7 +69,7 @@
 @media (min-width: 992px) {
 
     .playlist {
-        background-color: #d9d9d9;
+        background-color:$color-primario;
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
@@ -97,7 +97,7 @@
     }
     
     &__iconos {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -105,12 +105,12 @@
     }
     
     &__iconos:hover {
-        font-size: 3rem;
+        font-size: $title-size;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 70px;
         transform: scale(1.4);
-        animation-delay: 2s;
+        animation-duration: $duration;
     }
 }
