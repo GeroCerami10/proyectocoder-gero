@@ -67,7 +67,7 @@
 @media (min-width: 992px) {
 
     .playlist {
-        background-color:$color-primario;
+        background-color: $color-primario;
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
@@ -93,13 +93,13 @@
     &__title {
         font-size: 1.5rem
     }
-    
+
     &__iconos {
         font-size: $title-size;
         @include flex-center();
         gap: 70px;
     }
-    
+
     &__iconos:hover {
         font-size: $title-size;
         @include flex-center();

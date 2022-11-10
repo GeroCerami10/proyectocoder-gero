@@ -268,7 +268,7 @@
 
     .ubicacion__div {
         @include flex-center();
-        flex-direction: row-reverse;    
+        flex-direction: row-reverse;
         gap: 10px;
     }
 

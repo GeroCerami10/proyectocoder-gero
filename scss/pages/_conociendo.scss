@@ -52,7 +52,7 @@
     &__div {
         @include flex-center();
         flex-direction: column;
-        
+
         padding: 10px;
     }
 
@@ -82,7 +82,7 @@
         @include flex-center();
         flex-direction: row;
         text-align: center;
-        
+
         padding-left: 50px
     }
 
@@ -90,7 +90,7 @@
         @include flex-center();
         flex-direction: row;
         text-align: center;
-        
+
         padding-left: 50px
     }
 
@@ -115,8 +115,8 @@
         @include flex-center();
         flex-direction: row;
         text-align: center;
-        
-        
+
+
         padding-left: 50px
     }
 
@@ -124,7 +124,7 @@
         @include flex-center();
         flex-direction: row;
         text-align: center;
-        
+
         padding-left: 50px
     }
 

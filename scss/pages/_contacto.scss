@@ -84,13 +84,13 @@
     &__title {
         font-size: 1.5rem
     }
-    
+
     &__iconos {
         font-size: $title-size;
         @include flex-center();
         gap: 70px;
     }
-    
+
     &__iconos:hover {
         font-size: $title-size;
         @include flex-center();
@@ -104,7 +104,7 @@
     .formulario__form {
         @include flex-center();
         flex-direction: column;
-        
+
     }
 }
 
@@ -112,6 +112,6 @@
     .formulario__form {
         @include flex-center();
         flex-direction: column;
-        
+
     }
 }
