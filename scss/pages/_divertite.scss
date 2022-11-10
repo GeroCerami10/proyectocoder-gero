@@ -54,9 +54,7 @@
     }
 
     &__div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
     }
 
     &__iframe {
@@ -98,17 +96,13 @@
     
     &__iconos {
         font-size: $title-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
         gap: 70px;
     }
     
     &__iconos:hover {
         font-size: $title-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
         gap: 70px;
         transform: scale(1.4);
         animation-duration: $duration;

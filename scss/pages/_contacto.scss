@@ -23,9 +23,7 @@
     }
 
     &__div-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
     }
 
 
@@ -89,17 +87,13 @@
     
     &__iconos {
         font-size: $title-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
         gap: 70px;
     }
     
     &__iconos:hover {
         font-size: $title-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
         gap: 70px;
         transform: scale(1.4);
         animation-duration: $duration;
@@ -108,18 +102,16 @@
 
 @media (min-width: 768px) {
     .formulario__form {
-        display: flex;
+        @include flex-center();
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
 }
 
 @media (min-width: 992px) {
     .formulario__form {
-        display: flex;
+        @include flex-center();
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
 }

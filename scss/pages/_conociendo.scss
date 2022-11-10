@@ -50,10 +50,9 @@
     }
 
     &__div {
-        display: flex;
+        @include flex-center();
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
         padding: 10px;
     }
 
@@ -80,20 +79,18 @@
 
 @media (min-width: 768px) {
     .arrayanes__div {
-        display: flex;
+        @include flex-center();
         flex-direction: row;
         text-align: center;
-        align-items: center;
-        justify-content: center;
+        
         padding-left: 50px
     }
 
     .lago__div {
-        display: flex;
+        @include flex-center();
         flex-direction: row;
         text-align: center;
-        align-items: center;
-        justify-content: center;
+        
         padding-left: 50px
     }
 
@@ -115,20 +112,19 @@
 
 @media (min-width: 992px) {
     .arrayanes__div {
-        display: flex;
+        @include flex-center();
         flex-direction: row;
         text-align: center;
-        align-items: center;
-        justify-content: center;
+        
+        
         padding-left: 50px
     }
 
     .lago__div {
-        display: flex;
+        @include flex-center();
         flex-direction: row;
         text-align: center;
-        align-items: center;
-        justify-content: center;
+        
         padding-left: 50px
     }
 
@@ -156,17 +152,13 @@
 
     &__iconos {
         font-size: $title-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
         gap: 70px;
     }
 
     &__iconos:hover {
         font-size: $title-size;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center();
         gap: 70px;
         transform: scale(1.4);
         animation-duration: $duration;

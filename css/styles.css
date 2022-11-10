@@ -15,6 +15,7 @@ ol {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  background-color: #d9d9d9;
 }
 .navbar__lista {
   padding: 5px;
@@ -98,9 +99,9 @@ footer {
 /* informacion escrita */
 .texto {
   display: flex;
-  flex-direction: column;
-  text-align: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 10px;
 }
 .texto__title {
@@ -165,7 +166,7 @@ footer {
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   padding-bottom: 10px;
   color: #457b9d;
 }
@@ -173,7 +174,7 @@ footer {
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   padding-bottom: 10px;
   color: #457b9d;
   transform: scale(1.3);
@@ -184,7 +185,7 @@ footer {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   color: #343a40;
 }
 .complejo__div {
@@ -262,7 +263,7 @@ footer {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     color: #343a40;
   }
   .complejo__img {
@@ -284,9 +285,9 @@ footer {
   }
   .ubicacion__div {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
     gap: 10px;
   }
   .ubicacion__mapa {
@@ -311,7 +312,7 @@ footer {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     color: #343a40;
   }
   .complejo__img {
@@ -418,17 +419,17 @@ footer {
 @media (min-width: 768px) {
   .formulario__form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 }
 @media (min-width: 992px) {
   .formulario__form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 }
 .disponibilidad {
@@ -570,9 +571,9 @@ footer {
 }
 .arrayanes__div {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 10px;
 }
 .arrayanes__p {
@@ -596,18 +597,18 @@ footer {
 @media (min-width: 768px) {
   .arrayanes__div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     padding-left: 50px;
   }
   .lago__div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     padding-left: 50px;
   }
   .arrayanes__title {
@@ -625,18 +626,18 @@ footer {
 @media (min-width: 992px) {
   .arrayanes__div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     padding-left: 50px;
   }
   .lago__div {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     padding-left: 50px;
   }
   .arrayanes__title {
