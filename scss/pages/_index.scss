@@ -61,6 +61,10 @@
         box-shadow: $shadow;
     }
 
+    &__img:hover{
+        transform: scale(1.1)
+    }
+
 }
 
 /* informacion escrita */
@@ -175,6 +179,11 @@
         height: 180px;
         border-radius: 15px;
         box-shadow: $shadow;
+        object-fit: cover;
+    }
+
+    &__img:hover{
+        transform: scale(1.1);
     }
 }
 
@@ -246,6 +255,7 @@
         width: 150px;
         height: 150px;
         border-radius: 15px;
+        object-fit: cover;
     }
 }
 

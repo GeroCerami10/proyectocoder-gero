@@ -61,7 +61,7 @@
                     <div class="col col-12 header p-3"><i class="bi bi-facebook links"></i> Umain 28 - San Martin de los Andes</div>
                     <div class="col col-12 header p-3"><i class="bi bi-instagram links"></i> umain28.sma</div>
                     <div class="col col-12  header p-3 "><i class="bi bi-envelope"></i> umain28complejo@gmail.com</div>
-                    <div class="col col-12 header p-3 "><i class="bi bi-whatsapp"></i> +54 261 6699583</div>
+                    <div class="col col-12 header p-3 "><i class="bi bi-whatsapp"></i> +54 261 6609583</div>
                 </div>
                 <div class="contacto__div-img">
                     <img src="../img/Umain 29.jpg" alt="logo de la marca , de nuestra empresa de departamentos" class="contacto__img">
@@ -73,13 +73,13 @@
             <form class="formulario__form">
                 <div class="formulario__div">
                     <label for="nombre-apellido" class="formulario__label">Nombre y Apellido:</label>
-                    <input type="text" name="nombre" id="nombre-apellido" required>
+                    <input type="text" name="nombre" id="nombre-apellido" placeholder="Nombre y Apellido" required class="formulario__control">
                 </div>
-                <div>
+                <div class="formulario__div">
                     <label for="email" class="formulario__label">Email:</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required class="formulario__control">
                 </div>
-                <div>
+                <div class="formulario__div">
                     <label for="Tipo" class="formulario__label">Tipo:</label>
                     <select name="Tipo" id="Tipo">
                         <option value="consulta">Consulta</option>
@@ -87,13 +87,13 @@
                         <option value="sugerencia">Sugerencias</option>
                     </select>
                 </div>
-                <div>
+                <div class="formulario__div">
                     <label for="mensaje" class="formulario__label">Mensaje:</label>
-                    <textarea name="mensajes" id="mensaje" cols="20" rows="10"></textarea>
-                </div>
+                    <textarea name="mensajes" id="mensaje" cols="18" rows="7" placeholder="Deje su mensaje" class="formulario__control"></textarea class="formulario__control">
+                    </div>
                 <div>
                     <label for="" class="formulario__label">¿Quiere recibir mensajes?</label>
-                    <input type="checkbox" name="mensajes" value="si-mensajes">
+                    <input type="checkbox" name="mensajes" value="si-mensajes" class="formulario__control">
                 </div>
                 <div class="d-grid gap-2">
                     <button class="btn btn-primary" type="button">Enviar</button>
@@ -106,9 +106,9 @@
             <h3 class="redes__title">Nuestras Redes:</h3>
         </div>
         <div class="redes__iconos">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-whatsapp"></i>
+            <a href="https://www.instagram.com/umain28.sma/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100086513276158" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="bi bi-whatsapp"></i></a>
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"> </script>

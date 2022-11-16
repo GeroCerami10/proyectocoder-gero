@@ -66,14 +66,12 @@
         height: 200px;
         border-radius: 15px;
         padding-bottom: 10px;
+        object-fit: cover;
     }
-}
 
-.centro__img {
-    width: 235px;
-    height: 200px;
-    border-radius: 15px;
-    padding-bottom: 10px;
+    &__img:hover{
+        transform: scale(1.1);
+    }
 }
 
 
